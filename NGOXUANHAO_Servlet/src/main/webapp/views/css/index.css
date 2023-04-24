@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+.carousel-item h2{
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.fas.fa-star{
+	color: yellow !important;
+}
+  .poster_hover .card:hover{
+    transition: 0.5s;
+   
+    transform: translateY(-10px);
+  }
+  

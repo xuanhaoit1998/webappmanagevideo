@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+* {box-sizing: border-box}
+
+
+/* Style the tab */
+.tab {
+  float: left;
+
+  width: 20%;
+  height: 300px;
+  background-color: #101112;
+  
+}
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  width: 80%;
+  background-color: #101112;
+  border-radius: 5px;
+}
+.tab strong{
+	color: white;
+  margin-left: 16px;
+}
+
+
+/* Style the buttons inside the tab */
+.tab a {
+  display: block;
+  background-color: #101112;
+  color: #888888;
+  padding: 8px 16px;
+  width: 230px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+/* Change background color of buttons on hover */
+
+
+/* Create an active/current "tab button" class */
+.tab a.active {
+  background-color: #1c1d1e;
+  color: #07bf67;
+  width: 240px;
+  margin-left: 10px;
+  box-shadow: -10px 10px 10px -10px #00000017;
+}
+.tab a:hover {
+  background-color: #1c1d1e;
+  color: #07bf67;
+  width: 240px;
+  margin-left: 10px;
+
+  box-shadow: -10px 10px 10px -10px #00000017;
+
+
+}
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+.nav .nav-item button.active {
+  /* background-color: aquamarine; */
+  /* border-radius: 3px; */
+  
+  border-color: #07bf67;
+  color: #888888;
+  
+}
+.nav .nav-item button:hover{
+  border-color: #07bf67;
+  background-color: white;
+
+}
+.nav .nav-item a:hover{
+  border-color: #07bf67;
+  background-color: white;
+
+}
+.nav a.active {
+  /* background-color: aquamarine; */
+  /* border-radius: 3px; */
+  
+  border-color: #07bf67;
+  color: #07bf67;
+  
+}
+
+/* ---------------------------------------------------- */
+  
+.nav-tabs {
+
+  background-color: #1c1d1e;
+
+  border-radius: 10px;
+ 
+}
+.tab-content{
+  
+  background-color: #1c1d1e;
+  border-radius: 10px;
+  height: auto;
+}
+.tab-content .tab-pane{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 19px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333333;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #07bf67;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 19px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+x {
+	color: #939394;
+}
+.form-control:focus{color:#4f4f4f;background-color:#fff;outline:0;-webkit-box-shadow:0 0 0 .25rem red;box-shadow:0 0 0 .25rem red} 
+
+
+
+
+

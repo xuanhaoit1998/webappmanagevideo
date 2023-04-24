@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+main .fas.fa-heart {
+    color: #f44336 !important;
+  }
+main .fas.fa-heart:hover {
+    color: #757575 !important;
+  }
